@@ -1,9 +1,11 @@
 
 
 import * as React from "react";
-import data from "../data/items.js";
+// import data from "../data/items.js";
 
-const FilterButtons = ({ menuItems, filterData, setData }) => {
+const FilterButtons = ({ menuItems, filterData, 
+  // setData 
+}) => {
   return (
     <div className="filter-buttons flex gap-5 justify-center m-10">
       {menuItems?.map((item, i) => {        
@@ -12,9 +14,9 @@ const FilterButtons = ({ menuItems, filterData, setData }) => {
           {item}
         </div>
       )})}
-      <div className="filter-button" onClick={() => setData(data)}>
+      {/* <div className="filter-button" onClick={() => setData(data)}>
         All
-      </div>
+      </div> */}
     </div>
   );
 };

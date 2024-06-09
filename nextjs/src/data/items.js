@@ -1,7 +1,5 @@
 import image from "../../public/india-1481499_1280.jpg"
 
-
-
 const items = [
     {
         id : "0",

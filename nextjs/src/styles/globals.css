@@ -79,3 +79,12 @@ p{
 
 
  @import 'components/fliter.css';
+
+
+ #light {
+  background-color: gainsboro;
+ }
+
+ #dark {
+  background-color: greenyellow;
+ }
